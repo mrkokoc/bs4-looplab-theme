@@ -1,7 +1,7 @@
 // Main Sass File
-$bg-color: #333;
+$bg-color: #3aafa9;
 $font-color: #fff;
-$primary-color: #008ed6;
+$primary-color: #17252a;
 $dark-overlay: rgba(0,0,0,0.7);
 $icon-size: 30px;
 
@@ -12,7 +12,14 @@ body {
 
 .navbar {
   border-bottom: $primary-color 3px solid;
-  opacity: 0.8;
+}
+
+.bg-company-navbar {
+  background-color: $primary-color;
+}
+
+.card {
+  background: $primary-color !important;
 }
 
 #home-section {
@@ -49,7 +56,35 @@ body {
 #explore-section {
   .fa {
     color: #fff;
-    background: #333;
+    background: $primary-color;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#create-section {
+  .fa {
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#create-head-section {
+  background: $primary-color !important;
+}
+
+#share-head-section {
+  background: #2b7a78 !important;
+}
+
+#share-section {
+  .fa {
+    color: #fff;
+    background: $primary-color;
     padding: 4px;
     border-radius: 5px;
     font-size: $icon-size;

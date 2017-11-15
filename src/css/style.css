@@ -1,10 +1,15 @@
 body {
-  background: #333;
+  background: #3aafa9;
   color: #fff; }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
-  opacity: 0.8; }
+  border-bottom: #17252a 3px solid; }
+
+.bg-company-navbar {
+  background-color: #17252a; }
+
+.card {
+  background: #17252a !important; }
 
 #home-section {
   background: url(../img/home.jpg) no-repeat fixed;
@@ -22,7 +27,7 @@ body {
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
-    color: #008ed6;
+    color: #17252a;
     background: #fff;
     padding: 4px;
     border-radius: 5px;
@@ -30,7 +35,27 @@ body {
 
 #explore-section .fa {
   color: #fff;
-  background: #333;
+  background: #17252a;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#create-section .fa {
+  color: #17252a;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#create-head-section {
+  background: #17252a !important; }
+
+#share-head-section {
+  background: #2b7a78 !important; }
+
+#share-section .fa {
+  color: #fff;
+  background: #17252a;
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
